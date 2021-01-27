@@ -24,6 +24,7 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/install/
 7.Run the fist block of code and run the first block of code to make sure you are in the righ environment (should see a * next ot the velocityenv line printed in the output)
 8.Now change all the path names in the second block of code to the files indicated and run the block of code
 9.If in the output next to any of the files you see "permission denied", open up a new window in terminal, activate the virtual environment by running `conda activate velocityenv` and then run `chmod -R 775 <path to file where permission is denied>`
+
 -If you run this block and it's starts printing a bunch of lines in the output file, you have permission, just hit the "interupt the kernel" button (black box at the top of the jupyter notenbook next to Run)
 10. you can now run the next block of code to sort the bam files.
 
