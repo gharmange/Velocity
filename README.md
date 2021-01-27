@@ -15,3 +15,7 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/install/
       `conda env create -f velocityenv.yml` 
       (replacing <velocityenv.yml> with the full path to that file) to create 
 4. Next activate the environment by runing this line of code in the terminal `conda activate velocityenv`
+5. You can then open jupyter notebook in this environment by typying `jupyter notebook` in the same terminal windo you did step 4
+6. Next navigate in the jupyter notebook file navigator to open RunRNAvelocity.ipynb dowloaded from this page
+7.
+
