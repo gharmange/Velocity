@@ -2,10 +2,10 @@
    File 1: Output folder from runing CellRanger on the 10x Datat
    
    File 2: The referece genome file used when running CellRanges (the gene.gtf file) which you can find in your installation of CellRange or download here:https://support.10xgenomics.com/single-cell-gene-expression/software/downloads/latest
-   once downloaded unzip and the file will be in the subfolder named gene (you can delete everything else)
+   -once downloaded unzip and the file will be in the subfolder named gene (you can delete everything else)
    
    File 3: A repeat masking file (in GTF format)for the genome you are using which you can find here: https://genome.ucsc.edu/cgi-bin/hgTables?hgsid=611454127_NtvlaW6xBSIRYJEBI0iRDEWisITa&clade=mammal&org=Human&db=0&hgta_group=allTracks&hgta_track=rmsk&hgta_table=rmsk&hgta_regionType=genome&position=&hgta_outputType=gff&hgta_outFileName=mm10_rmsk.gtf
-   once downloaded unzip
+   -once downloaded unzip
 
 # Setting up environment and running velocity
 1. If you have not installed anaconda do so following these instructions (choose anoconda not miniconda):
