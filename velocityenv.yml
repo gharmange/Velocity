@@ -1,8 +1,8 @@
 name: velocityenv
 channels:
-  - bioconda
-  - conda-forge
   - defaults
+  - conda-forge
+  - bioconda
 dependencies:
   - _anaconda_depends=2020.07=py37_0
   - alabaster=0.7.12=py37_0
@@ -127,6 +127,7 @@ dependencies:
   - libedit=3.1.20181209=hb402a30_0
   - libev=4.33=haf1e3a3_1
   - libffi=3.2.1=1
+  - libgcc=4.8.5=hdbeacc1_10
   - libgfortran=3.0.1=h93005f0_2
   - libiconv=1.16=h1de35cc_0
   - liblief=0.10.1=h0a44026_0
