@@ -40,7 +40,7 @@ dependencies:
   - bzip2=1.0.8=h1de35cc_0
   - c-ares=1.17.1=hc929b4f_0
   - ca-certificates=2021.1.19=hecd8cb5_0
-  - certifi=2020.12.5=py37hf985489_1
+  - certifi=2020.12.5=py37hecd8cb5_0
   - cffi=1.14.0=py37hb5b8e2f_0
   - chardet=4.0.0=py37hecd8cb5_1003
   - click=7.1.2=pyhd3eb1b0_0
@@ -141,6 +141,7 @@ dependencies:
   - libtiff=4.1.0=hcb84e12_1
   - libxml2=2.9.10=h7cdb67c_3
   - libxslt=1.1.34=h83b36ba_0
+  - llvm=10.0.1=h21ff451_5
   - llvm-openmp=10.0.0=h28b9765_0
   - llvmlite=0.34.0=py37h739e7dc_4
   - locket=0.2.1=py37hecd8cb5_1
@@ -180,7 +181,7 @@ dependencies:
   - numpydoc=1.1.0=pyhd3eb1b0_1
   - olefile=0.46=py37_0
   - openpyxl=3.0.6=pyhd3eb1b0_0
-  - openssl=1.1.1i=h35c211d_0
+  - openssl=1.1.1i=h9ed2024_0
   - packaging=20.9=pyhd3eb1b0_0
   - pandas=1.2.1=py37hb2f4e1b_0
   - pandoc=2.11=h0dc7051_0
