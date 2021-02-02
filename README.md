@@ -8,7 +8,13 @@
    File 3: A repeat masking file (in GTF format)for the genome you are using which you can find here: https://genome.ucsc.edu/cgi-bin/hgTables?hgsid=611454127_NtvlaW6xBSIRYJEBI0iRDEWisITa&clade=mammal&org=Human&db=0&hgta_group=allTracks&hgta_track=rmsk&hgta_table=rmsk&hgta_regionType=genome&position=&hgta_outputType=gff&hgta_outFileName=mm10_rmsk.gtf
 
 -once downloaded unzip the file
-
+# Adding gcc compiler to your computer 
+   this step is needed to install the velocyto package
+  1. To install homebrew paste this into terminal `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` and hit enter
+   (more detail here: https://brew.sh)
+  2. once installed paste this into terminal `brew install gcc` and hit enter
+  3. the gcc compiler should be installed (you can check this by running `which gcc` in the terminal and you should get `usr/bin/gcc` as an output)
+  
 # Setting up environment and running velocity
 1. If you have not installed anaconda do so following these instructions (choose anoconda not miniconda):
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/
