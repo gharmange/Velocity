@@ -9,6 +9,7 @@ dependencies:
   - anaconda=custom=py37_1
   - anaconda-client=1.7.2=py37_0
   - anaconda-project=0.9.1=pyhd3eb1b0_1
+  - anndata=0.6.22.post1=py_0
   - appdirs=1.4.4=py_0
   - applaunchservices=0.2.1=py_0
   - appnope=0.1.2=py37hecd8cb5_1001
@@ -39,8 +40,8 @@ dependencies:
   - brotlipy=0.7.0=py37h9ed2024_1003
   - bzip2=1.0.8=h1de35cc_0
   - c-ares=1.17.1=hc929b4f_0
-  - ca-certificates=2020.12.5=h033912b_0
-  - certifi=2020.12.5=py37hf985489_1
+  - ca-certificates=2021.1.19=hecd8cb5_0
+  - certifi=2020.12.5=py37hecd8cb5_0
   - cffi=1.14.0=py37hb5b8e2f_0
   - chardet=4.0.0=py37hecd8cb5_1003
   - click=7.1.2=pyhd3eb1b0_0
@@ -166,6 +167,7 @@ dependencies:
   - msgpack-python=1.0.1=py37hf7b0b51_0
   - multipledispatch=0.6.0=py37_0
   - mypy_extensions=0.4.3=py37_0
+  - natsort=7.1.1=pyhd3eb1b0_0
   - nbclient=0.5.1=py_0
   - nbconvert=6.0.7=py37_0
   - nbformat=5.1.2=pyhd3eb1b0_1
@@ -183,7 +185,7 @@ dependencies:
   - olefile=0.46=py37_0
   - openmp=8.0.1=0
   - openpyxl=3.0.6=pyhd3eb1b0_0
-  - openssl=1.1.1i=h35c211d_0
+  - openssl=1.1.1i=h9ed2024_0
   - packaging=20.9=pyhd3eb1b0_0
   - pandas=1.2.1=py37hb2f4e1b_0
   - pandoc=2.11=h0dc7051_0
@@ -332,11 +334,9 @@ dependencies:
   - zope.interface=5.2.0=py37h9ed2024_0
   - zstd=1.4.5=h41d2c2f_0
   - pip:
-    - anndata==0.7.5
     - get-version==2.1
     - legacy-api-wrap==1.2
     - loompy==3.0.6
-    - natsort==7.1.1
     - numpy-groupies==0.9.13
     - scanpy==1.6.1
     - scvelo==0.2.2
